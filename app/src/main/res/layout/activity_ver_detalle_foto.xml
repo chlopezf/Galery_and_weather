@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Fotos.Ver_Detalle_Foto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/CmdAtras"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:backgroundTint="@color/green_medium"
+            android:background="?attr/actionModeCloseDrawable" />
+
+        <TextView
+            android:id="@+id/textView61"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="end"
+            app:srcCompat="@mipmap/ic_launcher_tges" />
+
+    </LinearLayout>
+
+        <ImageView
+            android:id="@+id/IVFotoDetalle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sin_imagen"/>
+
+    <TextView
+        android:id="@+id/TVTituloDetalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/green_dark"
+        android:text="Titulo"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TVDescripcionDetalle"
+        android:text="@string/Descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gray_super_dark" />
+
+    <TextView
+        android:id="@+id/TVIdBlog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/green"
+        android:visibility="invisible"/>
+
+    </LinearLayout>
+</ScrollView>

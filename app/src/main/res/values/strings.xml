@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TGeS</string>
+    <string name="fotos">Fotos (Ejercicio1)</string>
+    <string name="Tomar_foto">Tomar Fotografía</string>
+    <string name="Listado_foto">Listado de Fotos</string>
+    <string name="Tomar_Foto">Tomar foto</string>
+    <string name="Nombre">Nombre</string>
+    <string name="Foto">Foto</string>
+    <string name="Icono">Icono</string>
+    <string name="Cargando">Cargando</string>
+    <string name="Descripcion">Descripción</string>
+    <string name="Cancelar">Cancelar</string>
+    <string name="Subir_Foto">Subir Foto</string>
+    <string name="EstadoTiempo">Estado del tiempo (Ejercicio2)</string>
+    <string name="EstadoTiempo_titulo">Estado del tiempo</string>
+    <string name="Nombre_ciudad">Digite ciudad</string>
+    <string name="Nombre_pais">Digite pais (opcional)</string>
+    <string name="Obtener">Estado del tiempo</string>
+</resources>
